@@ -1,0 +1,75 @@
+How to write Java programs and then execute them.
+
+
+open a new file in any text editor software, 
+	be sure not to use a word processing software like Google Docs or MS word that won't work.
+	Use a text editor software if you want to master the language
+	Stay away from an I.D.E. (use them while developing large app) -An I.D.E. provides a lot of assistance, so it will make you lazy.
+
+	text/code editors : notepad, notepad++, vscode, atom, sublime text,
+	IDE (integrated development environment) : Visual Studio, IntelliJ Idea, PyCharm, Webstorm
+	
+-Open and empty file and a text editor and then create a class in it.
+-Java programs are written inside classes.
+-To create a class, write the word class in lowercase, 
+ then give that class any name of your choice.
+-Finally, right to curly brackets after the class name, 
+ they denote the start and end of the class.
+-The word/keyword 'class' must be in lowercase, if not, the program will not work.
+-A quick tip : Professional programmers start the name of the class with a capital letter.
+(not a rule but That's a good practice )
+-i.e.  
+	1.we opened a new file and text editor, then created a class and gave the class a name.
+	2.we create something called a main method inside the class we just created.
+		What does this main method?
+			Main method is the entry point of the program. It is very crucial.
+			Java will start execution of the program from the first line of main method.
+
+	3.To create main method--->Public, then static void, then main.
+		-And open a bracket inside the bracket right string, followed by args, 
+		followed by a square brackets, then close the circular bracket.
+		public static void main(String[] args) { }  ---> This line creates the main method.
+	   -Then put curly brackets to mark the start and end of main method 
+	   -Execution of every application begins with main method.
+
+		-The only valid main method the Java recognizes is one which is public static void and 
+		accepts an array of strings as arguments.
+		-The square brackets this is an array.
+		this is how you create a main method inside a class.
+		
+	4.Once we create the main method, we write the programming logic and inside of it.
+	The key takeaway from step two is that all our logic will come inside the main method.
+	This is not the best way, but we are still in the first chapter and the later chapters you will be
+
+	5.Save the file, how well they dot Java extension.
+	The name of the file should always be the name of the class, which has the main method.
+	Then it should have a Dot Java extension.So we will save this file as my class dot java.
+	-If it doesn't save the files, name more than double quotes 
+		This forces the operating system to not use the default text extension.
+	
+	5.The next step is to compile the file.
+		After program is saved, we have to compile it 
+		There was a module in Java called Compiler ---> javac   (java compiler)
+		It checks if there are any errors that violate the rules of Java.
+		It displays errors to the programmer. If there are no errors, it says compilation is successful.
+	-To compile, we first opened a terminal or command prompt.
+	 type javac, this will invoke the compiler and then specify name of the file.
+	
+	In this case, the compilation command is   --->  javac MyClass.java
+	If the compiler displayed errors, you would need to fix them.
+	And then again, try to compile the program, and there are no errors.
+	Once you have the compilers green signal, you move on to the next step.
+	
+	6.The last step is to execute the application, to run the class and all the logic we wrote inside the main method.
+	To do that, open a terminal or command prompt and type Java, followed by name of the class.
+	This is the class which has a main method.
+	
+	REMEMBER -> Don't specify file name here.
+	Always remember we compile files, but we run classes.
+	When we write Java, we are asking Java to run the program from the first line of the main method.
+	The command should look like this java my class and that's it.
+
+So create a class and in it, create a main method, then, right, the program's logic inside the main.
+Then save the file, compile it and finally run the program.
+
+

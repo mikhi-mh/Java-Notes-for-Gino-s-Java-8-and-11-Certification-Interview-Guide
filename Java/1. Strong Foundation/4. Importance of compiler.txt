@@ -1,0 +1,53 @@
+First program
+	simple program which displays the message Hello.
+five steps the 
+	first step was to open an empty file in a text editor, 
+	then create a class, let's call it welcome.
+	Then create the main method inside the class, be sure to not miss a single curly bracket. The execution of the program will begin from main.
+		It is called System.out.println() It uses round brackets and not curly ones.
+		For convenience, this utility is popularly known as SOPLN  sysout ---> we put that text in its double quotes.
+		
+	save the file now ---> We give it the name of the class, which has the main method
+                            So name this file as Welcome.java
+
+The real reason why we compile programs?
+	We write Java programs in English.
+		-So that we, as humans can easily read it, all programming languages that are written in a human readable
+		  language like English are called high level languages.
+		-all applications on our computer are executed by the CPU.
+		-Java Programs two are executed by CPU.
+
+		-Java programs are written in English, but the CPU does not understand English.
+		-High level language is made for humans, not for a CPU.
+			The CPU has its own language.
+			It only recognizes instructions that are in the form of zeros and ones.
+			This is called the machine language
+			
+There is only one way that the CPU will be able to understand our program if we can take the program
+we wrote in English and then translate it into a language that the CPU understands, only then can it
+execute the program.
+
+
+	-When we compile a Java program using the javac command, the compiler first checks for compile time errors.
+
+	-If there are no errors, the compiler produces a .class file from the .java file
+	This class file is called bytecode file.
+	
+	.class is an intermediate format between machine language and high level language.
+	.class file is not in machine language.
+	
+	-still needs to be converted from bytecode format to machine language so that the CPU can understand
+	-When we run the program using Java Command, the interpreter, also called JVM, looks for this bytecode.
+	-It then converts the byte code into machine language dynamically 
+	
+	And that is how the CPU is then able to execute the Java program because it now has the machine language version of our program
+
+compile our program now.
+	-Open a command prompt- terminal - console.
+	-type cd and then path to the folder where our program is stored.
+	-move to the directory where the program has saved before we compile the program.
+	- type ---> javac Welcome.java
+	- Welcome.class ---> created in same folder/directory This is the bytecode file.
+	- if no it means there are error--->resolve all of them and compile it till .class is generated
+	---type --->   java Welcome
+	message hello is printed in the console.

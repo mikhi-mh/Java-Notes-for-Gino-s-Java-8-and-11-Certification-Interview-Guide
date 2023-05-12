@@ -1,0 +1,39 @@
+Common programming errors
+
+There are two types of programming errors.
+	1. Runtime errors - when the program is live and running - 
+		are also called exceptions
+		
+	2. Compile time errors - occur before the program is run - 
+		-errors that violate the rules of Java.
+		-detected by the compiler we perform step and compile the program using javac
+		
+
+Some common examples
+	1. This is an example of missing void keyword, 
+	main method should be public static void, 
+	But in this example, void is missing.
+	This is a violation of Java's rules.
+	--->So when we compile this program, the compiler shows below error.
+	Void is basically called the return type as void is not written here.
+	The compiler complains by saying return type required
+
+	2. getting to right curly brackets here.
+	The main method has its opening and closing brackets.
+	here, closing bracket of the class is missing, hence compilation fails.
+	
+	
+
+	3. making spelling mistakes.
+	The word string of main method must start with a capital s, but here string is written in lowercase.
+	So be mindful of all the spellings.
+	If you misspell a word or give it a wrong casing, the program won't work.
+
+A quick note about runtime errors.
+	They are also called exceptions, 
+	No matter how small the exception, once an exception occurs, it crashes the running application.
+	Developers should develop applications that can withstand these runtime errors.
+	If an exception occurs, the application must handle it elegantly and continue to remain running.
+	A client should always be able to use the application, even if the exception occurs because of their mistake.
+	Details about that ---> how to handle runtime errors and the exception handling concepts
+

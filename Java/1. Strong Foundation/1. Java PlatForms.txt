@@ -1,0 +1,35 @@
+Brief overview of the Java Platforms.(what we can do with Java.)
+
+-James Gosling is the creator of Java.
+-He was part of Sun Microsystems, the company that released the first version of Java.
+-in 2009, Oracle acquired Sun. Since then, all Java updates are released by Oracle.
+
+
+---There are three Java platforms.
+
+1.	Java SE is the standard edition.
+	It is a technology used for creating applications that do not require any type of server side processing.
+	It is also called Core Java.
+	So for running Java SE apps, we do not need to install any external software on our machine.
+	They can be run directly on any computer.
+	Java SE apps are also called standalone apps.
+
+
+2.	Java EE stands for Java Enterprise Edition.
+	Unlike Java SE, Java Enterprise Edition apps cannot be run directly on the computer.
+	This is because they require a server side processing capabilities.
+	This need can be fulfilled by installing special software called application server.
+	A popular example of such a software is the Apache Tomcat.
+	(see the difference bet app sever and server)
+
+3.	Java ME stands for Java Micro Edition.
+	It is used for creating applications for mobile devices.
+	Not recommended using it 
+	instead Android's Java pr kotlin or Apple's iOS' swift programming languages 
+
+
+Difference server  vs app server
+server(machine or hardware) - physical machine - just another pc or computer
+application server (software) - not a real physical machine -  just software - it must me installed on server or machine 
+
+----------------------------------------------------------------
